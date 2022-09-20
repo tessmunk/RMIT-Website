@@ -1,3 +1,31 @@
+
+.topnav {
+  background-color: #DCE2C8;
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #A8DCD1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #F17F29;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #65DEF1;
+  color: white;
+}
+
+
+
+
 html, body {
   background: #A8DCD1;
   text-align: center;
